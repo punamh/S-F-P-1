@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            gap: 20px;
+        }
+        #container>div{
+            border: 2px solid;
+        }
+        #pagination{
+            margin-top: 15px;
+        }
+        #pagination>button{
+            margin-left: 5px;
+        }
+         
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="pagination"></div>
+</body>
+</html>
+
+<script src="script.js"></script>
